@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Calabresa</title>
+</head>
+<body>
+    <form method="post">
+        <h1>Selecionou: Pizza Calabresa</h1>
+
+        <fieldset>
+            <legend>Pizza</legend>
+            <p>Escolha os adicionais</p>
+            <input type="checkbox" name="adicionais[]" value="queijo"><label>Queijo</label><br>
+            <input type="checkbox" name="adicionais[]" value="calabresa"><label>Calabresa</label><br>
+            <input type="checkbox" name="adicionais[]" value="cebola"><label>Cebola</label><br>
+            <input type="checkbox" name="adicionais[]" value="azeitona"><label>Azeitona</label><br>
+
+            <p>Borda recheada?</p>
+            <input type="radio" name="borda" value="sim"><label>Sim</label>
+            <input type="radio" name="borda" value="nao"><label>Não</label>
+        </fieldset>
+        <fieldset>
+            <legend>Bebidas</legend>
+            <input type="checkbox" name="bedida" value="agua"><label>Água</label><br>
+            <input disabled type="checkbox" name="bedida" value="suco"><label>Suco de laranja</label><br>
+            <input type="checkbox" name="bedida" value="refrigerante"><label>Coca-cola</label><br>
+            <input type="checkbox" name="bedida" value="nenhum"><label>Nenhum</label>
+        </fieldset>
+
+        <br><br><button type="submit">Enviar arquivo</button>
+    </form>
+</body>
+</html>

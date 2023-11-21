@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button tipos</title>
+</head>
+<body>
+    <form onsubmit="" method="get">
+        <label>Nome:</label><input type="text" name="nome"/> <br>
+        <label>Cargo:</label>
+        <select name="role">
+            <option value="">Selecionar o cargo</option>
+            <option value="gerente">Gerente</option>
+            <option value="diretor">Diretor</option>
+            <option value="gestor">Gestor</option>
+            <option value="presidente">Presidente</option>
+        </select> <br>
+        <label>Itens:</label>
+        <select name="itens" multiple>
+            <option value="">Item 1</option>
+            <option value="2">Item 2</option>
+            <option value="3">Item 3</option>
+            <option value="4">Item 4</option>
+        </select> <br>
+        <label>Assunto:</label><input type="text" name="assunto"/> <br>
+        <label>Mensegem</label><textarea rows="3" cols="5" name="mensagem"></textarea><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form 
+    name="nomedoform" 
+    onsubmit="alert('Formulario enviado !!')"  
+    method="post" target="_blank" 
+    autocomplete="off" 
+    action="#"><!--action="https://enderecodosite.com.br/nomeAleatorio"-->
+
+        <label>Pesquisa</label>
+        <input type="search"/><br>
+
+        <label>Variedade: </label> 
+        <input type="range" value="variacao"/><br>
+
+        <label>URL: </label> 
+        <input type="url"/><br>
+
+        <label>Cor: </label> 
+        <input type="color"/><br>
+
+        <label>Data: </label> 
+        <input type="date"/><br>
+
+        <label>Mês: </label> 
+        <input type="month"/><br>
+
+        <label>Semana: </label> 
+        <input type="week"/><br>
+        <!--Só funciona no Chrome e Edge-->
+
+        <label>Checkbook: </label>
+        <input type="checkbox"/>
+        <input type="checkbox"/>
+        <br>
+
+        <label>Radio: </label>
+        <input type="radio" name="confirmação"/><br>
+        
+        <label>Fantasma: </label>
+        <input type="hidden" name="invisivel"/><br>
+
+        <label>Nome: </label>  
+        <input type="text" name="name"/><br>
+
+        <label>Idade: </label> 
+        <input type="number" name="age" min="1" max="130"/><br>
+
+        <label>E-mail: </label> 
+        <input type="email"/><br>
+
+        <label>Senha: </label> 
+        <input type="password" name="password"/><br>
+
+        <label>Enviar arquivo:</label>
+        <input type="file"/><br>
+
+        
+
+        <button type="submit" value="Enviar">Enviar</button>
+    </form>
+</body>
+</html>
