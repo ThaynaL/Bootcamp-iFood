@@ -1,0 +1,44 @@
+#div01{
+    background-color: lightgoldenrodyellow;
+    width: auto;
+    height: 300px;
+}
+
+#texto02{
+    background-color: aquamarine;
+    height: inherit;
+}
+
+button{
+    max-width: 400px;
+    min-height: 50px;
+    max-height: 80px;
+    background: lightgrey;
+    margin-bottom: 30px;
+}
+
+
+.elementos{
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+
+#elemento-1{
+    background-color: orange;
+    margin: 20px 5px 10px 8px; 
+    /*Um valor: 4 lados
+    2 valores: em cima e abaixo
+    3 valores: em cima, lados e abaixo
+    4 valores: em cima, direita, baixo, esquerda*/
+
+    /* O padding é o espaçamento entre a borda do conteúdo e o proprio conteúdo*/
+    padding: 15px 20px 10px 25px;
+}
+
+#elemento-2{
+    background-color: purple;
+    margin-top: 10px;
+    margin-left: 30px;
+    padding: 5px;
+}

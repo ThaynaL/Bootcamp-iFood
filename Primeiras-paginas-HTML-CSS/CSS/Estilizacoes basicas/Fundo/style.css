@@ -1,0 +1,137 @@
+div{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 5px;
+}
+.fundo1{
+    background-image: repeating-linear-gradient(to top, black 0 20px, grey 20px 40px);
+}
+.fundo2{
+    background-image: linear-gradient(black, rgb(0, 0, 46));
+}
+.fundoImg{
+    width: 300px;
+    height: 200px;
+    background-image: url('./img/chocolate-quente.jpg');
+    margin-bottom: 5px;
+}
+#auto{
+    background-size: auto;
+}
+#cover{
+    background-size: cover;
+}
+#contain{
+    background-size: contain;
+}
+#tamanho{
+    background-size: 40%;
+}
+#x_y{
+    background-size: 100px 50%;
+}
+#repeat{
+    background-size: 80px;
+    background-repeat: repeat;
+}
+#repeat-x{
+    background-size: 80px;
+    background-repeat: repeat-x;
+    border: 1px solid rgb(0, 65, 9);
+}
+#repeat-y{
+    background-size: 80px;
+    background-repeat: repeat-y;
+    border: 1px solid rgb(0, 65, 9);
+}
+#space{
+    background-size: 80px;
+    background-repeat: space;
+}
+#round{
+    background-size: 80px;
+    background-repeat: round;
+}
+#no-repeat{
+    background-size: 80px;
+    background-repeat: no-repeat;
+    border: 1px solid rgb(0, 65, 9);
+}
+#posicao{
+    background-size: 100px;
+    background-repeat: no-repeat;
+    border: 1px solid rgb(0, 65, 9);
+    background-position: right ;
+}
+#fixed{
+    background-size: 150px;
+    background-repeat: round;
+    overflow: auto;
+    background-attachment: fixed;
+}
+#scroll{
+    background-size: 150px;
+    background-repeat: round;
+    overflow: auto;
+    background-attachment: scroll;
+}
+#local{
+    background-size: 150px;
+    background-repeat: round;
+    overflow: auto;
+    background-attachment: local;
+}
+.fundoImg > p{
+    color: white;
+    margin-left: 5px;
+}
+#padding-box{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 5px dashed greenyellow;
+    padding: 10px;
+    background-origin: padding-box;
+}
+#border-box{
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 5px dashed greenyellow;
+    padding: 10px;
+    
+}
+#content-box{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 5px dashed greenyellow;
+    padding: 10px;
+    background-origin: content-box;
+}
+.fundo3{
+    background-image: linear-gradient(black, rgb(0, 0, 46));
+    border: 5px dashed deepskyblue;
+    color: white;
+    padding: 15px;
+    font-size: 75px;
+    font-weight: 900;
+    text-align: center;
+}
+#Cpadding-box{
+    background-clip: padding-box;
+}
+#Cborder-box{
+    background-clip: border-box;
+}
+#Ccontent-box{
+    background-clip: content-box;
+}
+#Ctext{
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+#blend-mode{
+    background-color: rgba(127, 255, 212, 0.4);
+    background-blend-mode: soft-light;
+}
+

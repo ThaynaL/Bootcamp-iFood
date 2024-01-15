@@ -1,0 +1,36 @@
+li {
+    color: gray;
+}
+
+.fundo-verde li{
+    background-color: lightgreen;
+}
+
+.fundo-azul li{
+    background-color: lightblue;
+}
+
+#sublist03 li{
+    color: rgb(31, 3, 110);
+}
+
+/*Descendente*/
+.fundo-verde #sublist01 li{
+    color: black;
+}
+
+/*Filho*/
+div > p {
+    background-color: lightcoral;
+}
+
+/*Irmão Adjacente, ou seja, esse combinador aplica o estilo no primeiro elemento após o indicado */
+div + p{
+    color: rgb(226, 226, 226);
+}
+
+/*Irmão Geral*/
+div ~ p{
+    background-color: rgb(48, 146, 146);
+}
+

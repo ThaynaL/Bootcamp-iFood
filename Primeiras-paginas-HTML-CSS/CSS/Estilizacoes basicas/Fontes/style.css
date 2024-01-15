@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,900&display=swap');
+
+
+@font-face {
+    font-family: Lemon;
+    src: local(), url("./assets/Lemon/Lemon-Regular.ttf");
+}
+#personalizada{
+    font-family: Lemon, serif;
+}
+h4{
+    font-size: medium;
+}
+#text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+#xx-small{
+    font-size: xx-small;
+}
+#x-small{
+    font-size: x-small;
+}
+#small{
+    font-size: small;
+}
+#medium{
+    font-size: medium;
+}
+#large{
+    font-size: large;
+}
+#x-large{
+    font-size: x-large;
+}
+#xx-large{
+    font-size: xx-large;
+}
+#normal-style{
+    font-style: normal;
+}
+#italic{
+    font-style: italic;
+}
+#oblique{
+    font-style: oblique;
+}
+#normal{
+    font-weight: normal;
+}
+#bold{
+    font-weight: bold;
+}
+#small_caps{
+    font-variant: small-caps;
+}
+.stretch{
+    font-family: Helvetica, sans-serif;
+}
+#ultra-condensed{
+    font-stretch: ultra-condensed;
+}
+#extra-condensed{
+    font-stretch: extra-condensed;
+}
+#semi-condensed{
+    font-stretch: semi-condensed;
+}
+#normal{
+    font-stretch: normal;
+}
+#semi-expanded{
+    font-stretch: semi-expanded;
+}
+#extra-expanded{
+    font-stretch: extra-expanded;
+}
+#ultra-expanded{
+    font-stretch: ultra-expanded;
+}

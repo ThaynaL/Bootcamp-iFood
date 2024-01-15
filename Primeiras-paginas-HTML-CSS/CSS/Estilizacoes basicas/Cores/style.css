@@ -1,0 +1,32 @@
+li{
+    background-color: rgba(220, 220, 220, 0.459);
+}
+#pre-definida{
+    color: darkmagenta;
+}
+#current{
+    background: transparent;
+    color: cornflowerblue;
+    border: 1px solid currentColor;
+}
+#hex{
+    color: #3a02bd;
+}
+#hex_transparencia{
+    color: #3a02bd36;
+}
+#RGB{
+    color:rgb(155, 65, 65);/*vermalho, verde, azul*/
+}
+#RGBA{
+    color:rgba(155, 65, 65, 0.700);/*vermalho, verde, azul, transparencia*/
+}
+#HSL{
+    color: hsl(125, 70%, 68%);
+}
+#HSLA{
+    color: hsl(125, 50%, 70%, .5);
+}
+.sem_fundo{
+    background-color: white;
+}

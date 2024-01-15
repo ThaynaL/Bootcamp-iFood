@@ -1,0 +1,43 @@
+
+#borda{
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    border-top: 10px solid wheat;
+    border-bottom: 15px dashed black;
+    border-radius: 15px/10%;
+}
+.bordaImg{
+    background-color: rgb(33 33 33);
+    width: 100px;
+    height: 100px;
+    border: 10px solid;
+    margin: auto;
+}
+#source{
+    border-image-source: url('./img/borda.png') ;
+}
+#width{
+    border-image-source: url('./img/star.png') ;
+    border-image-repeat: repeat;
+    border-image-slice: 65;
+    border-image-width: 20px 10px 20px 10px;
+}
+#repeat{
+    border-image-source: url('./img/star.png') ;
+    border-image-repeat: round stretch;
+    border-image-slice: 65;
+}
+#outset{
+    border-image-source: url('./img/borda.png') ;
+    border-image-slice: 5;
+    border-image-outset: 12px;
+}
+#slice{
+    border-image-source: url('./img/star.png') ;
+    border-image-repeat: repeat;
+    border-image-slice: 65 fill;
+}
+#resumo{
+    border-image: url('./img/borda.png') 10 / 5px/ .8 .1 round;
+}

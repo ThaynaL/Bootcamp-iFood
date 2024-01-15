@@ -1,0 +1,28 @@
+*{
+    font-weight: 500;
+}
+#titulo{
+    background-color: aliceblue;
+    color: coral;
+}
+h6{
+    background-color: rgb(243, 250, 149);
+    color: black;
+}
+#seletorID{
+    color: #ec7474;
+    text-transform: uppercase;
+}
+.seletorClass{
+    color: blueviolet;
+}
+[title="atrib"] {
+    color: rgb(49, 189, 45);
+}/*se adicionar o ~= para fazer o mesmo com uma palavra com espaço
+se colocar |= vai selecionar parte de uma palavra com hifem*/
+p.subtitulo{
+    background-color: azure;
+}
+h1, span{
+    color: rgb(27, 66, 83);
+}
