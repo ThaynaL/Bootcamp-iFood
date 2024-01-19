@@ -1,0 +1,30 @@
+#transfomar{
+    text-transform: capitalize;
+}
+#alinhar{
+    text-align: center;
+}
+#linha{
+    text-decoration-line: line-through;
+}
+#estilo{
+    text-decoration-line: line-through;
+    text-decoration-style: double;
+}
+#cor{
+    text-decoration-line: underline;
+    text-decoration-color: cornflowerblue;
+}
+#espessura{
+    text-decoration-line: line-through;
+    text-decoration-thickness: 4px;
+}
+#margem{
+    text-indent: 30px;
+}
+#letter{
+    letter-spacing: 2px;
+}
+#word{
+    word-spacing: 10px;
+}
