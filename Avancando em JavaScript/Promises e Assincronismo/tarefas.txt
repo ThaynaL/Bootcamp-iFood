@@ -1,0 +1,4 @@
+Fazer uma lista de tarefas:Feito
+Jantar:false
+Tomar água:true
+Ouvir música:false
